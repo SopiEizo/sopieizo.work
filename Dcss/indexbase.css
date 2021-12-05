@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: #fbf7da;
+    border-radius: 60px;
+    text-align: center;
+  position: absolute;  /*要素を浮かす*/
+  /*relativeを指定した親要素を支点とした位置をすべて0に指定↓*/
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto; /*上下左右中央に*/
+}

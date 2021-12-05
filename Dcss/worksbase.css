@@ -1,0 +1,293 @@
+@charset "utf-8";
+
+.box {
+    display:table;
+    width: 100%;
+    height: 100ex;
+    background-color: #fbf7da;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    text-align: center;
+    
+}
+
+.box .inbox{
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.hako1 {
+  background: #f5b6b1;
+  padding: 10px;
+  border-radius: 60px;
+  
+}
+
+.box-big1 {
+  grid-row: 1 / 4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00026.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big1:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big2 {
+  grid-column: 2 / 4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00025.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big2:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big3 {
+  transition: .3s;
+  grid-column: 4 / 5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00024.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big3:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+
+.box-big4 {
+  grid-column: 2 / 5;
+  grid-row: 2 / 5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00023.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big4:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big5 {
+  grid-row: 5 / 9;
+  grid-column: 1 / 3;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00022.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big5:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big6 {
+  grid-row: 4 / 5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00021.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big6:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big7 {
+  grid-column: 3 / 4;
+  grid-row: 5 / 15;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00020.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big7:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big8 {
+  grid-column: 4 / 5;
+  grid-row: 5 / 8;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00019.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big8:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big9 {
+  grid-column: 1 / 2;
+  grid-row: 9 / 13;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00018.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big9:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big10 {
+  grid-column: 2 / 3;
+  grid-row: 9 / 13;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00017.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big10:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big11 {
+  grid-column: 4 / 5;
+  grid-row: 8 / 17;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00016.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big11:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big12 {
+  grid-row: 13 / 20;
+  grid-column: 1 / 3;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00015.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big12:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big13 {
+  grid-column: 3 / 4;
+  grid-row: 15 / 20;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00014.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big13:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+.box-big14 {
+  grid-column: 4 / 5;
+  grid-row: 17 / 20;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://sopieizo.work/img/photo_00013.webp);
+  color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box-big14:hover {
+  transition: .3s;
+  color: #ffffff;
+  filter: drop-shadow(400px);
+}
+
+.hakotext{
+
+}
