@@ -16,6 +16,18 @@
   vertical-align:middle;
 }
 
+.fadeIn_item.offs,
+.offs .fadeIn_item{
+  opacity: 0;
+  transform: translateY(100px);
+}
+.fadeIn_item.ons,
+.ons .fadeIn_item{
+  transition: all 1s cubic-bezier(0,.49,0,.99);
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .hako1 {
   background: #f5b6b1;
   padding: 10px;
@@ -624,3 +636,4 @@
 .hakotext{
 
 }
+
