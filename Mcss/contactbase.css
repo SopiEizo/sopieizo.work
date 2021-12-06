@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.mozi{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.dekamozi {
+  color: #766a44;
+  font-size: 500%;
+}
+
+.minimozi{
+  color: #766a44;
+  font-size: 120%;
+  letter-spacing: 4px;
+}
+
+.titlemozi {
+  color: #766a44;
+  font-size: 400%;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
