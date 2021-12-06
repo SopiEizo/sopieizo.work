@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.topbar1 {
+    width: 80%;
+    height: 10ex;
+    border-radius: 1000px;
+    margin-top: 1%;
+    background-color: #f3d2c1;
+    border: 3px solid #001858;
+    position: fixed;
+    margin-right: 10%;
+    margin-left: 10%;
+    letter-spacing: 5px;
+    
+}
+
+.topbar1-1{
+    width: 25%;
+    height: 10ex;
+    border-radius: 1000px;
+    background:linear-gradient(25deg, #F29A48, #F5B6B1);
+}
+
+.topbartext {
+    margin-left: 2%;
+    font-size: 160%;
+    color: #001858;
+    text-decoration: none;
+    background:linear-gradient(transparent 100%, rgb(233, 233, 233) 60%);
+    
+}
+.topbartext:hover {
+    transition: 0.3s;
+    margin-left: 2%;
+    font-size: 160%;
+    color: #8f845a;
+    text-decoration: none;
+    background:linear-gradient(transparent 80%, rgb(254, 246, 228) 60%);
+}
+
+.topbartext1 {
+    margin-left: 2%;
+    font-size: 160%;
+    color: #758256;
+    text-decoration: none;
+}
+
+.box {
+    display:table;
+    width: 100%;
+    height: 100ex;
+    background-color: #fef6e4;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    text-align: center;
+    
+}
+
+.box .inbox{
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.fadeIn_item.offs,
+.offs .fadeIn_item{
+  opacity: 0;
+  transform: translateY(50px);
+}
+.fadeIn_item.ons,
+.ons .fadeIn_item{
+  transition: all 1s cubic-bezier(0, 0, 0.13, 0.79);
+  opacity: 1;
+  transform: translateY(0);
+}
