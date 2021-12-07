@@ -10,7 +10,8 @@ h1 {
     height: 10ex;
     border-radius: 1000px;
     margin-top: 1%;
-    background-color: #ffede0;
+    background-color: #f3d2c1;
+    
     position: fixed;
     margin-right: 10%;
     margin-left: 10%;
@@ -22,7 +23,7 @@ h1 {
     width: 25%;
     height: 10ex;
     border-radius: 1000px;
-    background:linear-gradient(25deg, #F28548, #DE5A5A);
+    background:linear-gradient(25deg, #F29A48, #F5B6B1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,9 +41,18 @@ h1 {
     transition: 0.3s;
     margin-left: 2%;
     font-size: 160%;
-    color: #758256;
+    color: #8f845a;
     text-decoration: none;
-    background:linear-gradient(transparent 80%, rgb(233, 233, 233) 60%);
+    background:linear-gradient(transparent 80%, rgb(254, 246, 228) 60%);
+}
+
+.topbartextnow {
+    margin-left: 2%;
+    font-size: 160%;
+    color: #001858;
+    text-decoration: none;
+    background:linear-gradient(transparent 60%, rgb(233, 233, 233) 60%);
+    
 }
 
 .topbartext1 {

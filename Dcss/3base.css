@@ -11,6 +11,7 @@ h1 {
     border-radius: 1000px;
     margin-top: 1%;
     background-color: #fce564;
+    
     position: fixed;
     margin-right: 10%;
     margin-left: 10%;
@@ -31,7 +32,7 @@ h1 {
 .topbartext {
     margin-left: 2%;
     font-size: 160%;
-    color: #756b42;
+    color: #766a44;
     text-decoration: none;
     background:linear-gradient(transparent 100%, rgb(233, 233, 233) 60%);
     
@@ -40,9 +41,18 @@ h1 {
     transition: 0.3s;
     margin-left: 2%;
     font-size: 160%;
-    color: #8f845a;
+    color: #867c5a;
     text-decoration: none;
-    background:linear-gradient(transparent 80%, rgb(233, 233, 233) 60%);
+    background:linear-gradient(transparent 80%, rgb(254, 246, 228) 60%);
+}
+
+.topbartextnow {
+    margin-left: 2%;
+    font-size: 160%;
+    color: #001858;
+    text-decoration: none;
+    background:linear-gradient(transparent 60%, rgb(233, 233, 233) 60%);
+    
 }
 
 .topbartext1 {

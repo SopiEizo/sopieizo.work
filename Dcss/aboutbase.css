@@ -30,7 +30,7 @@
 .part2 {
   margin-top: 20%;
   width: 100%;
-  height: 150ex;
+  height: 120ex;
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,95,255,1) 100%);
   text-align: center;
@@ -52,6 +52,14 @@
   color: #fff;
   font-size: 800%;
   letter-spacing: 8px;
+  
+}
+
+.about {
+  color: #fff;
+  font-size: 100%;
+  letter-spacing: 10px;
+  line-height: 25px;
 }
 
 .minihello {
