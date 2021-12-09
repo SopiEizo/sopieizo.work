@@ -6,21 +6,20 @@ h1 {
 }
 
 .topbar1 {
-    width: 80%;
-    height: 10ex;
+    width: 100%;
+    height: 5ex;
     border-radius: 1000px;
     margin-top: 1%;
     background-color: #ffede0;
     position: fixed;
-    margin-right: 10%;
-    margin-left: 10%;
+    
     letter-spacing: 5px;
     
 }
 
 .topbar1-1{
     width: 25%;
-    height: 10ex;
+    height: 5ex;
     border-radius: 1000px;
     background:linear-gradient(25deg, #F28548, #DE5A5A);
     display: flex;
@@ -30,7 +29,7 @@ h1 {
 
 .topbartext {
     margin-left: 2%;
-    font-size: 160%;
+    font-size: 10%;
     color: #383838;
     text-decoration: none;
     background:linear-gradient(transparent 100%, rgb(233, 233, 233) 60%);
@@ -50,4 +49,13 @@ h1 {
     font-size: 160%;
     color: #758256;
     text-decoration: none;
+}
+
+.topbartextnow {
+    margin-left: 2%;
+    font-size: 160%;
+    color: #001858;
+    text-decoration: none;
+    background:linear-gradient(transparent 60%, rgb(233, 233, 233) 60%);
+    
 }
